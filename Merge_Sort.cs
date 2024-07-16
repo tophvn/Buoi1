@@ -81,7 +81,6 @@ namespace Merge_Sort
         static void MergeSort(int[] a, int l, int r)
         {
             if (l >= r) return;
-
             int mid = (l + r) / 2;
             MergeSort(a, l, mid);
             MergeSort(a, mid + 1, r);
